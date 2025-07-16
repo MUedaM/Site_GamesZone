@@ -1,0 +1,151 @@
+.navbar {
+    background-color: #223d8a;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #223d8a;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-catalogo .nav-link.active:hover{
+    color: #fff;
+}
+
+.carousel-item img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#eventos img {
+    height: 234px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-title {
+    font-family: "Permanent Marker", cursive;
+}
+
+.section-title span {
+    color: #223d8a;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+#sobre-restaurante,
+#catalogo{
+    background-color: #c2d2ff;
+}
+
+.text-colored {
+    color: #223d8a;
+}
+
+.nav-catalogo .nav-link.active,
+#contatos .botao-enviar {
+    background-color: #223d8a;
+    color: #fff
+}
+
+.nav-catalogo .nav-link:hover { 
+    color: #223d8a;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+#nome:focus,
+#email:focus,
+#telefone:focus,
+#mensagem:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #223d8a;
+    border-color: #223d8a;
+}
+
+#mensagem {
+    resize: none;
+    height: 200px;
+}
+
+#nome-error,
+#email-error,
+#mensagem-error {
+    color: red;
+    font-weight: bold;
+}
+
+#catalogo a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.catalogo-jogos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    #catalogo {
+        height: 660px;
+    }
+
+    #catalogo img {
+        display: block;
+        width: 100%;
+    }
+
+    #catalogo a {
+        margin-top: 16px;
+        font-size: 20px;
+    }
+
+    .nav-catalogo {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .carousel-item img {
+        height: 300px;
+    }
+
+    #catalogo {
+        height: 1150px;
+    }
+
+    #contatos .contato {
+        width: 100%;
+    }
+
+    .catalogo-jogos img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .catalogo-jogos a {
+        margin-top: 16px;
+        margin-bottom: 32px;
+        font-size: 18px;
+    }
+
+    .nav-catalogo {
+        margin-bottom: 48px;
+        font-size: 20px;
+    }
+}
